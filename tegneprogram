@@ -1,0 +1,12 @@
+int[]x={10,20,30};
+int[]y={100,100,100};
+void draw(){
+circle(x[0],y[0],10);
+circle(x[1],y[1],10);
+}
+void keyPressed(){
+  if(key=='w')y[0]=y[0]-10;
+  if(key=='s')y[0]=y[0]+10;
+  if(key=='a')x[0]=x[0]-10;
+  if(key=='d')x[0]=x[0]+10;
+}
